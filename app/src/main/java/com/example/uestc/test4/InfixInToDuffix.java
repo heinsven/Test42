@@ -16,7 +16,7 @@ public class InfixInToDuffix {
         basic.put('-', 1);
         basic.put('+', 1);
         basic.put('*', 2);
-        basic.put('/', 2);
+        basic.put('/', 2);//haha
         basic.put('(', 0);//在运算中  （）的优先级最高，但是此处因程序中需要 故设置为0
     }
 
